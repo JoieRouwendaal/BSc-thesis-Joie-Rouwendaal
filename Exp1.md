@@ -12,8 +12,8 @@ y = numeric(n+1)
 x2 = 1:n1
 y2 = numeric(n1)
 A = diag(3)
-first_point = 0.3 # randomly sampled from U(-1,1)
-y_0 = observation_y(first_point,s,t_real)
+set.seed(1155)
+first_point = runif(1,-1,1)
 real_x_qd = find_maximum(t_real)
 
 # Mean sampling:
