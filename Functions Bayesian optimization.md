@@ -5,7 +5,7 @@
 # t = unknown parameter theta
 # A = covariance matrix prior of theta
 # sigmaa or s = sigma^2, variance of error
-# Sigmaa or S= covariance matrix posterior distribution theta
+# Sigmaa or S = covariance matrix posterior distribution theta
 # g = objective function
 # y = observations
 
