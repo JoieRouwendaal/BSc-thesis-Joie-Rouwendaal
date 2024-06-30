@@ -50,11 +50,11 @@ iterative_quadratic_final <- function(new_design_point, n, y_0, p) {
 
     new_design_point = find_maximum(t_estimate)
 
-     if (design_point > 1) {
-      design_point = 1
+     if (new_design_point > 1) {
+      new_design_point = 1
     }
-    if (design_point < -1) {
-      design_point = -1
+    if (new_design_point < -1) {
+      new_design_point = -1
     }
 
     new_design_maximum = observation_y(new_design_point, s, t_real)
@@ -83,11 +83,11 @@ iterative_quartic_final <- function(new_design_point, n, y_0, p) {
 
     new_design_point = find_maximum_q(t_estimate)
 
-     if (design_point > 1) {
-      design_point = 1
+     if (new_design_point > 1) {
+      new_design_point = 1
     }
-    if (design_point < -1) {
-      design_point = -1
+    if (new_design_point < -1) {
+      new_design_point = -1
     }
 
     new_design_maximum = observation_y_quartic(new_design_point, s, t_real_q)
@@ -116,11 +116,11 @@ iterative_triangle_final <- function(new_design_point, n, y_0, p) {
 
     new_design_point = find_maximum_triangle(t_estimate)
 
-    if (design_point > 1) {
-      design_point = 1
+    if (new_design_point > 1) {
+      new_design_point = 1
     }
-    if (design_point < -1) {
-      design_point = -1
+    if (new_design_point < -1) {
+      new_design_point = -1
     }
 
     new_design_maximum = observation_y_triangle(new_design_point, s, t_real_triangle)
@@ -150,11 +150,11 @@ iterative_sin_final <- function(new_design_point, n, y_0, p){
 
     new_design_point = find_maximum_sin(t_estimate)
 
-     if (design_point > 1) {
-      design_point = 1
+     if (new_design_point > 1) {
+      new_design_point = 1
     }
-    if (design_point < -1) {
-      design_point = -1
+    if (new_design_point < -1) {
+      new_design_point = -1
     }
 
     new_design_maximum = observation_y_sin(new_design_point, s, t_real_sin)
@@ -182,11 +182,11 @@ iterative_quadratic_toy2 = function(new_design_point,n,y_0,p){
     }
     new_design_point = find_maximum(t_estimate)
 
-   if (design_point > 1) {
-      design_point = 1
+   if (new_design_point > 1) {
+      new_design_point = 1
     }
-    if (design_point < -1) {
-      design_point = -1
+    if (new_design_point < -1) {
+      new_design_point = -1
     }
 
     new_design_maximum = observation_y_quartic(new_design_point,s,t_real_q)
