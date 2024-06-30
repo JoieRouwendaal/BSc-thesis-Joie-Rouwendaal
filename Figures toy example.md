@@ -79,7 +79,6 @@ toy2 = iterative_quadratic_toy2(0.3, 1, observation_y(0.3, s, t_real), 1)
   labs(x = "", y = "") +
    ylim(-2.5,2)+
   theme(
-    #plot.title = element_text(hjust = 0.5, size = 25, face = "bold"),
     axis.title = element_text(size = 1),
     axis.text = element_text(size = 20), 
     panel.background = element_rect(fill = "white", color = NA), 
